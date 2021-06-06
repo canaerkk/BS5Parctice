@@ -11478,6 +11478,10 @@ fieldset:disabled .btn {
   }
 }
 
+.logo {
+  width: 111px;
+}
+
 .btn-warning:hover {
   background-color: #ff785e;
   color: #ffffff;
