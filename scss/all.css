@@ -11482,6 +11482,11 @@ fieldset:disabled .btn {
   width: 111px;
 }
 
+.btn-warning {
+  color: #636057;
+  font-weight: bold;
+}
+
 .btn-warning:hover {
   background-color: #ff785e;
   color: #ffffff;
@@ -11510,6 +11515,14 @@ a.nav-link.active {
 .soicon {
   width: 30px;
   height: 30px;
+}
+
+.productpic {
+  height: 123px;
+}
+
+.bg-newlight {
+  background-color: #e8e8db;
 }
 
 .faq {
