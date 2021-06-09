@@ -14,3 +14,11 @@ a.nav-link.active{
     font-weight: bold;
     border-bottom: #ffdf65 2px solid;
 }
+.btn-outline-success:hover{
+    background-color: #ffdf65;
+    border: none;
+    color:#858377;
+    i{
+        color:#FF785E;
+    }
+}

@@ -27,11 +27,11 @@
 }
 
 .link-success {
-  color: #198754;
+  color: #858377;
 }
 
 .link-success:hover, .link-success:focus {
-  color: #146c43;
+  color: #9d9c92;
 }
 
 .link-info {
@@ -456,7 +456,7 @@
 }
 
 .border-success {
-  border-color: #198754 !important;
+  border-color: #858377 !important;
 }
 
 .border-info {
@@ -1360,7 +1360,7 @@
 }
 
 .text-success {
-  color: #198754 !important;
+  color: #858377 !important;
 }
 
 .text-info {
@@ -1416,7 +1416,7 @@
 }
 
 .bg-success {
-  background-color: #198754 !important;
+  background-color: #858377 !important;
 }
 
 .bg-info {
