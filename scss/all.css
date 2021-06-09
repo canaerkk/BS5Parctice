@@ -11507,6 +11507,11 @@ a.nav-link.active {
   color: #FF785E;
 }
 
+.soicon {
+  width: 30px;
+  height: 30px;
+}
+
 .faq {
   color: #000;
   font-size: 22px;
