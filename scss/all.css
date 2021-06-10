@@ -11529,6 +11529,14 @@ a.nav-link.active {
   background-color: #494846;
 }
 
+.modal-footer {
+  border-top: none;
+}
+
+.text-hover {
+  color: #FF785E;
+}
+
 .faq {
   color: #000;
   font-size: 22px;
