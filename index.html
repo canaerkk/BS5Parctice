@@ -207,9 +207,46 @@
                     </div>
                     <span class="position-absolute top-100 start-50 translate-middle p-3 bg-white">贊助專案</span>
                     <img src="img/icon_heart.svg" class="position-absolute top-0 start-50 translate-middle" alt="贊助專案icon">
-            </div>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="projectddl">贊助方案</label>
+                        <select class="form-select" name="" id="projectddl">
+                            <option selected disabled value="">請選擇</option>
+                            <option value="專案1">買一送一，只有兩百組別錯過</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="donatename">收件人姓名</label>
+                        <input class="form-control" type="text" id="donatename">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="donatephone">聯絡電話</label>
+                        <input class="form-control" type="text" id="donatephone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="donateemail" class="form-label">聯絡信箱</label>
+                        <input type="email" class="form-control" id="donateemail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="donatetypeddl" class="form-label">付款方式</label>
+                        <select class="form-select" name="" id="donatetypeddl">
+                            <option selected disabled value="">請選擇一個方案</option>
+                            <option value="cash">我直接付現</option>
+                            <option value="credit">我刷卡</option>
+                        </select>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3">
+                            <button type="submit" class="btn btn-warning w-100 mb-3 rounded-pill">贊助專案</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
+    <div class="footer d-flex justify-content-center text-white py-2">
+        <h3 class="h6 pt-2">Copyright © 拼拼 All rights reserved.</h3>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

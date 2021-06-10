@@ -11525,6 +11525,10 @@ a.nav-link.active {
   background-color: #e8e8db;
 }
 
+.footer {
+  background-color: #494846;
+}
+
 .faq {
   color: #000;
   font-size: 22px;
