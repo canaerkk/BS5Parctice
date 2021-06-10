@@ -11533,11 +11533,11 @@ a.nav-link.active {
   border-top: none;
 }
 
-.text-hover {
+.text-hover, .invalid-feedback {
   color: #FF785E;
 }
 
-.form-control:focus {
+.form-control:focus, .form-select:focus {
   border-color: #FF785E;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 120, 94, 0.25);
           box-shadow: 0 0 0 0.25rem rgba(255, 120, 94, 0.25);
