@@ -11537,8 +11537,9 @@ a.nav-link.active {
   color: #FF785E;
 }
 
-.faq {
-  color: #000;
-  font-size: 22px;
+.form-control:focus {
+  border-color: #FF785E;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 120, 94, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(255, 120, 94, 0.25);
 }
 /*# sourceMappingURL=all.css.map */
