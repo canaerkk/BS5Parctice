@@ -1,0 +1,14 @@
+.accordion-outline{
+    border: 1px #E5E5E5 solid;
+    box-shadow:  0 0 0 0.25rem rgba(#E5E5E5,0.25) ;
+}
+.accordion-button{
+    border: none;
+    &:focus{
+        -webkit-box-shadow: none;
+        border: none;
+    }
+}
+.accordion-body{
+    border-top: 1px #E5E5E5 solid;
+}
