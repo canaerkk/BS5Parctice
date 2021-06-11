@@ -11565,4 +11565,14 @@ a.nav-link:hover {
 .accordion-body {
   border-top: 1px #E5E5E5 solid;
 }
+
+.card-hyperlink {
+  text-decoration: none;
+  color: #FF785E;
+  font-weight: bold;
+}
+
+.card-hyperlink:hover {
+  color: #858377;
+}
 /*# sourceMappingURL=all.css.map */
