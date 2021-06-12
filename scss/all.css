@@ -11575,4 +11575,9 @@ a.nav-link:hover {
 .card-hyperlink:hover {
   color: #858377;
 }
+
+.text-reply {
+  color: #FF785E;
+  font-weight: bold;
+}
 /*# sourceMappingURL=all.css.map */
