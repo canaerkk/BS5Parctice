@@ -113,11 +113,11 @@
     <div class="border-bottom border-secondary">
         <div class="container">
             <div class="row">
-                <ul class="nav">
+                <ul class="nav tab-content">
                     <li class="nav-item"><a class="nav-link py-3" href="index.html">專案介紹</a></li>
                     <li class="nav-item"><a class="nav-link py-3 active" href="faq.html">常見問答</a></li>
                     <li class="nav-item"><a class="nav-link py-3" href="progress.html">目前進度</a></li>
-                    <li class="nav-item"><a class="nav-link py-3" href="#">留言</a></li>
+                    <li class="nav-item"><a class="nav-link py-3" href="msg.html">留言</a></li>
                 </ul>
             </div>
         </div>
@@ -312,7 +312,7 @@
                     <span class="position-absolute top-100 start-50 translate-middle p-3 bg-white">贊助專案</span>
                     <img src="img/icon_heart.svg" class="position-absolute top-0 start-50 translate-middle" alt="贊助專案icon">
                 </div>
-                <form>
+                <form id="form">
                     <div class="mb-3">
                         <label class="form-label" for="projectddl-bot">贊助方案</label>
                         <select class="form-select" name="" id="projectddl-bot">
@@ -352,7 +352,13 @@
             </div>
         </div>
     </div>
-    <div class="footer d-flex justify-content-center text-white py-2">
+      <!--置底button-->
+      <div class="position-sticky bottom-0" style="z-index: 999">
+        <button class="btn btn-warning rounded-0 w-100 d-lg-none" id="bottomBtn" onclick="goForm()" style="display:none;">
+            贊助專案
+        </button>
+    </div>
+    <div class="footer d-flex justify-content-center text-white py-2 mt-5">
         <h3 class="h6 pt-2">Copyright © 拼拼 All rights reserved.</h3>
     </div>
     <!--登入modal-->
@@ -389,5 +395,6 @@
           </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/overall.js"></script>
 </body>
 </html>
